@@ -1,0 +1,26 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "mfe project as products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.dev.config.js"
+  },
+  "keywords": [
+    "mfe",
+    "setup"
+  ],
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "faker": "^6.6.6",
+    "random-indian-name": "^1.0.0"
+  }
+}
